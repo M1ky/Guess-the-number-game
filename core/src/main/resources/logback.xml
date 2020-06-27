@@ -1,0 +1,14 @@
+<configuration>
+<!--	TODO change the class for the org.slf4j -->
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<pattern>%date [%thread] [%level] %logger{40} - %message%n</pattern>
+		</encoder>
+	</appender>
+
+	<logger name="com.mike" level="DEBUG"/>
+
+	<root level="INFO">
+		<appender-ref ref="STDOUT"/>
+	</root>
+</configuration>
