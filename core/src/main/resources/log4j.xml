@@ -9,6 +9,8 @@
 	</layout>
 </appender>
 
+
+
 <root>
 	<priority value ="debug" />
 	<appender-ref ref="console" />
