@@ -1,10 +1,13 @@
-package com.mike;
+package com.mike.config;
 
+import com.mike.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Import;
 
 @Configuration
+@Import(GameConfig.class)
 @ComponentScan(basePackages="com.mike")
 public class AppConfig
 {

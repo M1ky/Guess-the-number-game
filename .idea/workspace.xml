@@ -11,30 +11,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7c9fb7c-8ff6-4f65-8ce1-15d481530393" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Multi_Module_Maven_Project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/com/mike/console/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/mike/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/mike/MessageGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/mike/MessageGeneratorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console/src/main/java/com/mike/console/ConsoleNumberGuess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/mike/MaxNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/mike/config/GameConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/mike/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/log4j.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/com/mike/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/log4j.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/src/main/java/com/mike/console/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/console/src/main/java/com/mike/console/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/target/classes/com/mike/console/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/console/target/classes/com/mike/console/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/mike/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/mike/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/mike/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/mike/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/mike/GameImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/mike/GameImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/mike/MessageGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/mike/MessageGeneratorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/mike/NumberGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/mike/NumberGeneratorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/mike/AppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/mike/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/mike/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/mike/GameImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/mike/GameImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/mike/MessageGeneratorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/mike/MessageGeneratorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/mike/NumberGeneratorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/mike/NumberGeneratorImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +38,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -120,6 +113,7 @@
       <workItem from="1593513712576" duration="5179000" />
       <workItem from="1593536812879" duration="720000" />
       <workItem from="1593672410665" duration="2382000" />
+      <workItem from="1593683936093" duration="5698000" />
     </task>
     <servers />
   </component>
@@ -143,10 +137,10 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1349" y="117" key="#Project_Structure/0.0.2560.1080@0.0.2560.1080" timestamp="1593062830235" />
-    <state x="1674" y="250" key="#com.intellij.ide.util.MemberChooser" timestamp="1593536894579">
+    <state x="1674" y="250" key="#com.intellij.ide.util.MemberChooser" timestamp="1593688008606">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="1674" y="250" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1080@0.0.2560.1080" timestamp="1593536894579" />
+    <state x="1674" y="250" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1080@0.0.2560.1080" timestamp="1593688008606" />
     <state x="1569" y="293" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593528466472">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
@@ -155,22 +149,22 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1619" y="280" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1593673051628" />
-    <state width="1386" height="293" key="GridCell.Tab.0.bottom" timestamp="1593674834498">
+    <state width="1386" height="293" key="GridCell.Tab.0.bottom" timestamp="1593707273315">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="1386" height="293" key="GridCell.Tab.0.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1593674834498" />
-    <state width="1386" height="293" key="GridCell.Tab.0.center" timestamp="1593674834497">
+    <state width="1386" height="293" key="GridCell.Tab.0.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1593707273315" />
+    <state width="1386" height="293" key="GridCell.Tab.0.center" timestamp="1593707273315">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="1386" height="293" key="GridCell.Tab.0.center/0.0.2560.1080@0.0.2560.1080" timestamp="1593674834497" />
-    <state width="1386" height="293" key="GridCell.Tab.0.left" timestamp="1593674834497">
+    <state width="1386" height="293" key="GridCell.Tab.0.center/0.0.2560.1080@0.0.2560.1080" timestamp="1593707273315" />
+    <state width="1386" height="293" key="GridCell.Tab.0.left" timestamp="1593707273315">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="1386" height="293" key="GridCell.Tab.0.left/0.0.2560.1080@0.0.2560.1080" timestamp="1593674834497" />
-    <state width="1386" height="293" key="GridCell.Tab.0.right" timestamp="1593674834498">
+    <state width="1386" height="293" key="GridCell.Tab.0.left/0.0.2560.1080@0.0.2560.1080" timestamp="1593707273315" />
+    <state width="1386" height="293" key="GridCell.Tab.0.right" timestamp="1593707273315">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="1386" height="293" key="GridCell.Tab.0.right/0.0.2560.1080@0.0.2560.1080" timestamp="1593674834498" />
+    <state width="1386" height="293" key="GridCell.Tab.0.right/0.0.2560.1080@0.0.2560.1080" timestamp="1593707273315" />
     <state x="1442" y="275" key="IDE.errors.dialog" timestamp="1592144256274">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>

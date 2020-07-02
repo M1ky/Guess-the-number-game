@@ -13,8 +13,10 @@ public class GameImpl implements Game
 	@Autowired
 	private NumberGenerator numberGenerator;
 
+	@Autowired
+	private int guessCount;
+
 	private static final Logger log = LogManager.getLogger(GameImpl.class);
-	private final int guessCount = 10;
 	private int number;
 	private int guess;
 	private int smallest;
@@ -74,6 +76,12 @@ public class GameImpl implements Game
 	public int getRemainingGuesses()
 	{
 		return remainingGuesses;
+	}
+
+	@Override
+	public int getGuessCount()
+	{
+		return guessCount;
 	}
 
 	@Override

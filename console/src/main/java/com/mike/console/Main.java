@@ -1,7 +1,7 @@
 package com.mike.console;
 
 
-import com.mike.AppConfig;
+import com.mike.config.AppConfig;
 import com.mike.Game;
 import com.mike.MessageGenerator;
 import com.mike.NumberGenerator;
@@ -9,7 +9,6 @@ import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Main
 {
@@ -27,9 +26,9 @@ public class Main
 //		ConfigurableApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
 
 		NumberGenerator gen = context.getBean("numberGenerator", NumberGenerator.class);
+		log.info(gen.getClass());
 
 		int number = gen.next();
-		log.info("number = " + number);
 
 		Game game = context.getBean(Game.class);
 		game.reset();
@@ -37,8 +36,6 @@ public class Main
 
 
 		MessageGenerator msgGenerator = context.getBean(MessageGenerator.class);
-		log.info("getMainMessage() = " + msgGenerator.getMainMessage());
-		log.info("getResultMessage() = " + msgGenerator.getResultMessage());
 		// close context (container)
 		context.close();
 	}
