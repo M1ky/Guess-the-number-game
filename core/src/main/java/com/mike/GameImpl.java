@@ -3,20 +3,18 @@ package com.mike;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
+@Component
 public class GameImpl implements Game
 {
 	private static final Logger log = LogManager.getLogger(GameImpl.class);
 
-	@Autowired
-	private NumberGenerator numberGenerator;
-
-	@Autowired
-	@GuessCount
-	private int guessCount;
+	private final int guessCount;
+	private final NumberGenerator numberGenerator;
 
 	private int number;
 	private int guess;
@@ -24,6 +22,13 @@ public class GameImpl implements Game
 	private int biggest;
 	private int remainingGuesses;
 	private boolean validNumberRange = true;
+
+	@Autowired
+	public GameImpl(NumberGenerator numberGenerator,@GuessCount int guessCount)
+	{
+		this.numberGenerator = numberGenerator;
+		this.guessCount = guessCount;
+	}
 
 	@Override
 	@PostConstruct
@@ -52,7 +57,7 @@ public class GameImpl implements Game
 	@Override
 	public int getGuess()
 	{
-		return guessCount;
+		return guess;
 	}
 
 	@Override

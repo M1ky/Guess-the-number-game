@@ -3,15 +3,22 @@ package com.mike;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 
+@Component
 public class MessageGeneratorImpl implements MessageGenerator
 {
-	@Autowired
-	private Game game;
+	private final Game game;
 
 	private Logger logger = new LogManager().getLogger(MessageGeneratorImpl.class);
+
+	@Autowired
+	public MessageGeneratorImpl(Game game)
+	{
+		this.game = game;
+	}
 
 	@PostConstruct
 	public void init()
@@ -39,9 +46,11 @@ public class MessageGeneratorImpl implements MessageGenerator
 			return "What is your first guess?";
 		else
 		{
-			String direction = "lower";
+			String direction;
 			if (game.getGuess() < game.getNumber())
 				direction = "higher";
+			else
+				direction = "lower";
 
 			return direction + "\nYou have: " + game.getRemainingGuesses() + " guesses left";
 		}
