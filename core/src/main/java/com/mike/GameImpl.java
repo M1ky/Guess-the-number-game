@@ -3,20 +3,21 @@ package com.mike;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
 public class GameImpl implements Game
 {
+	private static final Logger log = LogManager.getLogger(GameImpl.class);
+
 	@Autowired
 	private NumberGenerator numberGenerator;
 
 	@Autowired
+	@GuessCount
 	private int guessCount;
 
-	private static final Logger log = LogManager.getLogger(GameImpl.class);
 	private int number;
 	private int guess;
 	private int smallest;
@@ -28,9 +29,9 @@ public class GameImpl implements Game
 	@PostConstruct
 	public void reset()
 	{
-		smallest = 0;
 		guess = 0;
 		remainingGuesses = guessCount;
+		smallest = numberGenerator.getMinNumber();
 		biggest = numberGenerator.getMaxNumber();
 		number = numberGenerator.next();
 		log.debug("The number is: " + number);
@@ -100,9 +101,8 @@ public class GameImpl implements Game
 			{
 				smallest = guess + 1;
 			}
+			remainingGuesses--;
 		}
-
-		remainingGuesses--;
 	}
 
 	@Override
