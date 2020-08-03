@@ -1,5 +1,10 @@
+com\mike\MinNumber.class
+com\mike\MessageGenerator.class
+com\mike\MessageGeneratorImpl.class
+com\mike\MaxNumber.class
+com\mike\config\GameConfig.class
 com\mike\NumberGeneratorImpl.class
 com\mike\GameImpl.class
-com\mike\Main.class
 com\mike\NumberGenerator.class
 com\mike\Game.class
+com\mike\GuessCount.class

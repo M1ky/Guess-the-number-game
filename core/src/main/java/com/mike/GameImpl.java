@@ -1,5 +1,8 @@
 package com.mike;
 
+import lombok.AccessLevel;
+import lombok.Getter;
+import lombok.Setter;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,23 +11,28 @@ import org.springframework.stereotype.Component;
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
+@Getter
 @Component
 public class GameImpl implements Game
 {
 	private static final Logger log = LogManager.getLogger(GameImpl.class);
 
-	private final int guessCount;
+	@Getter(AccessLevel.NONE)
 	private final NumberGenerator numberGenerator;
+	private final int guessCount;
 
 	private int number;
-	private int guess;
 	private int smallest;
 	private int biggest;
 	private int remainingGuesses;
 	private boolean validNumberRange = true;
 
+	@Setter
+	private int guess;
+
+
 	@Autowired
-	public GameImpl(NumberGenerator numberGenerator,@GuessCount int guessCount)
+	public GameImpl(NumberGenerator numberGenerator, @GuessCount int guessCount)
 	{
 		this.numberGenerator = numberGenerator;
 		this.guessCount = guessCount;
@@ -46,48 +54,6 @@ public class GameImpl implements Game
 	public void preDestroy()
 	{
 		log.info("in Game preDestroy()");
-	}
-
-	@Override
-	public int getNumber()
-	{
-		return number;
-	}
-
-	@Override
-	public int getGuess()
-	{
-		return guess;
-	}
-
-	@Override
-	public void setGuess(int guess)
-	{
-		this.guess = guess;
-	}
-
-	@Override
-	public int getSmallest()
-	{
-		return smallest;
-	}
-
-	@Override
-	public int getBiggest()
-	{
-		return biggest;
-	}
-
-	@Override
-	public int getRemainingGuesses()
-	{
-		return remainingGuesses;
-	}
-
-	@Override
-	public int getGuessCount()
-	{
-		return guessCount;
 	}
 
 	@Override

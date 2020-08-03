@@ -15,7 +15,6 @@ import java.util.Scanner;
 @Component
 public class ConsoleNumberGuess
 {
-
 	private static final Logger log = LogManager.getLogger(ConsoleNumberGuess.class);
 
 	private final Game game;
