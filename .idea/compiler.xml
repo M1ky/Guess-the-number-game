@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="core" />
+        <module name="webModule" />
         <module name="console" />
       </profile>
     </annotationProcessing>
@@ -20,6 +21,7 @@
       <module name="console" options="-parameters" />
       <module name="core" options="-parameters" />
       <module name="web" options="-parameters" />
+      <module name="webModule" options="-parameters" />
     </option>
   </component>
 </project>
