@@ -3,20 +3,18 @@ package com.mike;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.Setter;
-import org.apache.log4j.LogManager;
-import org.apache.log4j.Logger;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
+@Slf4j
 @Getter
 @Component
 public class GameImpl implements Game
 {
-	private static final Logger log = LogManager.getLogger(GameImpl.class);
-
 	@Getter(AccessLevel.NONE)
 	private final NumberGenerator numberGenerator;
 	private final int guessCount;

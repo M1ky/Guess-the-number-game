@@ -14,11 +14,12 @@
 		<version>2.3.2.RELEASE</version>
 		<relativePath/>
 	</parent>
-	
+
 	<modules>
 		<module>core</module>
         <module>console</module>
-    </modules>
+		<module>web</module>
+	</modules>
 	<packaging>pom</packaging>
 
 

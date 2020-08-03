@@ -2,8 +2,7 @@ package com.mike.console;
 
 import com.mike.Game;
 import com.mike.MessageGenerator;
-import org.apache.log4j.LogManager;
-import org.apache.log4j.Logger;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
@@ -12,11 +11,10 @@ import org.springframework.stereotype.Component;
 
 import java.util.Scanner;
 
+@Slf4j
 @Component
 public class ConsoleNumberGuess
 {
-	private static final Logger log = LogManager.getLogger(ConsoleNumberGuess.class);
-
 	private final Game game;
 	private final MessageGenerator msgGenerator;
 

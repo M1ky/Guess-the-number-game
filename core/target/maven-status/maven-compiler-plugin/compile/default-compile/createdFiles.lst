@@ -1,8 +1,8 @@
 com\mike\MinNumber.class
 com\mike\MessageGenerator.class
 com\mike\MessageGeneratorImpl.class
-com\mike\MaxNumber.class
 com\mike\config\GameConfig.class
+com\mike\MaxNumber.class
 com\mike\NumberGeneratorImpl.class
 com\mike\GameImpl.class
 com\mike\NumberGenerator.class

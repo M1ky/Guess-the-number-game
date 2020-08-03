@@ -11,20 +11,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7c9fb7c-8ff6-4f65-8ce1-15d481530393" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console/src/main/java/com/mike/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/console/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/console/src/main/java/com/mike/console/ConsoleNumberGuess.java" beforeDir="false" afterPath="$PROJECT_DIR$/console/src/main/java/com/mike/console/ConsoleNumberGuess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/src/main/java/com/mike/console/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/target/classes/com/mike/console/ConsoleNumberGuess.class" beforeDir="false" afterPath="$PROJECT_DIR$/console/target/classes/com/mike/console/ConsoleNumberGuess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/target/classes/com/mike/console/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/target/console-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/console/target/console-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/console/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/com/mike/GameImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/mike/GameImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/mike/NumberGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/mike/NumberGeneratorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/META-INF/core.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/mike/MessageGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/mike/MessageGeneratorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/mike/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/mike/Game.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/classes/com/mike/GameImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/mike/GameImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/mike/GuessCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/mike/GuessCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/mike/MaxNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/mike/MaxNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/mike/MessageGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/mike/MessageGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/mike/MessageGeneratorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/mike/MessageGeneratorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/mike/MinNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/mike/MinNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/mike/NumberGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/mike/NumberGenerator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/classes/com/mike/NumberGeneratorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/mike/NumberGeneratorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/mike/config/GameConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/mike/config/GameConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/logback.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +68,6 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -76,20 +94,27 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean" />
-      <command value="mvn clean install" />
       <command value="mvn clean install -U" />
+      <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mike.console.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.mike.Main" />
       <module name="console" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mike.console.*" />
+          <option name="PATTERN" value="com.mike.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="console" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mike.Main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,6 +151,7 @@
       <workItem from="1594462275133" duration="556000" />
       <workItem from="1594624128025" duration="25000" />
       <workItem from="1596378529397" duration="956000" />
+      <workItem from="1596463942769" duration="2760000" />
     </task>
     <servers />
   </component>
@@ -165,22 +191,22 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1619" y="280" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1594275997758" />
-    <state width="1386" height="293" key="GridCell.Tab.0.bottom" timestamp="1594360820788">
+    <state width="1378" height="293" key="GridCell.Tab.0.bottom" timestamp="1596466508206">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="1386" height="293" key="GridCell.Tab.0.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1594360820788" />
-    <state width="1386" height="293" key="GridCell.Tab.0.center" timestamp="1594360820788">
+    <state width="1378" height="293" key="GridCell.Tab.0.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1596466508206" />
+    <state width="1378" height="293" key="GridCell.Tab.0.center" timestamp="1596466508206">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="1386" height="293" key="GridCell.Tab.0.center/0.0.2560.1080@0.0.2560.1080" timestamp="1594360820788" />
-    <state width="1386" height="293" key="GridCell.Tab.0.left" timestamp="1594360820788">
+    <state width="1378" height="293" key="GridCell.Tab.0.center/0.0.2560.1080@0.0.2560.1080" timestamp="1596466508206" />
+    <state width="1378" height="293" key="GridCell.Tab.0.left" timestamp="1596466508205">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="1386" height="293" key="GridCell.Tab.0.left/0.0.2560.1080@0.0.2560.1080" timestamp="1594360820788" />
-    <state width="1386" height="293" key="GridCell.Tab.0.right" timestamp="1594360820788">
+    <state width="1378" height="293" key="GridCell.Tab.0.left/0.0.2560.1080@0.0.2560.1080" timestamp="1596466508205" />
+    <state width="1378" height="293" key="GridCell.Tab.0.right" timestamp="1596466508206">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="1386" height="293" key="GridCell.Tab.0.right/0.0.2560.1080@0.0.2560.1080" timestamp="1594360820788" />
+    <state width="1378" height="293" key="GridCell.Tab.0.right/0.0.2560.1080@0.0.2560.1080" timestamp="1596466508206" />
     <state width="1386" height="363" key="GridCell.Tab.1.bottom" timestamp="1594017304925">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
@@ -217,18 +243,18 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1579" y="283" width="581" height="520" key="find.popup/0.0.2560.1080@0.0.2560.1080" timestamp="1594016787713" />
-    <state x="1230" y="139" key="new project wizard" timestamp="1594276007430">
+    <state x="1230" y="139" key="new project wizard" timestamp="1596467906685">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="1230" y="139" key="new project wizard/0.0.2560.1080@0.0.2560.1080" timestamp="1594276007430" />
-    <state x="1529" y="254" width="672" height="677" key="run.anything.popup" timestamp="1594359197524">
+    <state x="1230" y="139" key="new project wizard/0.0.2560.1080@0.0.2560.1080" timestamp="1596467906685" />
+    <state x="1529" y="254" width="672" height="677" key="run.anything.popup" timestamp="1596466415037">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="1529" y="254" width="672" height="677" key="run.anything.popup/0.0.2560.1080@0.0.2560.1080" timestamp="1594359197524" />
-    <state x="1502" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1594360735598">
+    <state x="1529" y="254" width="672" height="677" key="run.anything.popup/0.0.2560.1080@0.0.2560.1080" timestamp="1596466415037" />
+    <state x="1502" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1596466018722">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="1502" y="240" width="672" height="678" key="search.everywhere.popup/0.0.2560.1080@0.0.2560.1080" timestamp="1594360735598" />
+    <state x="1502" y="240" width="672" height="678" key="search.everywhere.popup/0.0.2560.1080@0.0.2560.1080" timestamp="1596466018722" />
     <state x="1417" y="235" key="spring file set editor" timestamp="1593449888441">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
