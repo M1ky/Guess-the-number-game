@@ -1,10 +1,10 @@
-C:\Users\Mike\Documents\Dev dream\Java\Rest_Soap_Web_Services\Multi_Module_Maven_Project\core\src\main\java\com\mike\MessageGeneratorImpl.java
-C:\Users\Mike\Documents\Dev dream\Java\Rest_Soap_Web_Services\Multi_Module_Maven_Project\core\src\main\java\com\mike\NumberGenerator.java
-C:\Users\Mike\Documents\Dev dream\Java\Rest_Soap_Web_Services\Multi_Module_Maven_Project\core\src\main\java\com\mike\Game.java
-C:\Users\Mike\Documents\Dev dream\Java\Rest_Soap_Web_Services\Multi_Module_Maven_Project\core\src\main\java\com\mike\MaxNumber.java
-C:\Users\Mike\Documents\Dev dream\Java\Rest_Soap_Web_Services\Multi_Module_Maven_Project\core\src\main\java\com\mike\MessageGenerator.java
-C:\Users\Mike\Documents\Dev dream\Java\Rest_Soap_Web_Services\Multi_Module_Maven_Project\core\src\main\java\com\mike\GuessCount.java
-C:\Users\Mike\Documents\Dev dream\Java\Rest_Soap_Web_Services\Multi_Module_Maven_Project\core\src\main\java\com\mike\GameImpl.java
-C:\Users\Mike\Documents\Dev dream\Java\Rest_Soap_Web_Services\Multi_Module_Maven_Project\core\src\main\java\com\mike\config\GameConfig.java
-C:\Users\Mike\Documents\Dev dream\Java\Rest_Soap_Web_Services\Multi_Module_Maven_Project\core\src\main\java\com\mike\MinNumber.java
-C:\Users\Mike\Documents\Dev dream\Java\Rest_Soap_Web_Services\Multi_Module_Maven_Project\core\src\main\java\com\mike\NumberGeneratorImpl.java
+/home/mike/Dev/Java/Spring/Guess-the-number-game/core/src/main/java/com/mike/NumberGeneratorImpl.java
+/home/mike/Dev/Java/Spring/Guess-the-number-game/core/src/main/java/com/mike/GameImpl.java
+/home/mike/Dev/Java/Spring/Guess-the-number-game/core/src/main/java/com/mike/config/GameConfig.java
+/home/mike/Dev/Java/Spring/Guess-the-number-game/core/src/main/java/com/mike/MaxNumber.java
+/home/mike/Dev/Java/Spring/Guess-the-number-game/core/src/main/java/com/mike/NumberGenerator.java
+/home/mike/Dev/Java/Spring/Guess-the-number-game/core/src/main/java/com/mike/GuessCount.java
+/home/mike/Dev/Java/Spring/Guess-the-number-game/core/src/main/java/com/mike/MessageGenerator.java
+/home/mike/Dev/Java/Spring/Guess-the-number-game/core/src/main/java/com/mike/MessageGeneratorImpl.java
+/home/mike/Dev/Java/Spring/Guess-the-number-game/core/src/main/java/com/mike/MinNumber.java
+/home/mike/Dev/Java/Spring/Guess-the-number-game/core/src/main/java/com/mike/Game.java

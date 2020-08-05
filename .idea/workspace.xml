@@ -11,38 +11,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7c9fb7c-8ff6-4f65-8ce1-15d481530393" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webModule/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webModule/src/main/java/com/mike/WebMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webModule/src/main/java/com/mike/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webModule/src/main/java/com/mike/util/ViewNames.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webModule/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webModule/src/main/resources/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webModule/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webModule/target/classes/com/mike/WebMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webModule/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webModule/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webModule/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webModule/target/webModule-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webModule/target/webModule-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webModule/src/main/java/com/mike/service/GameService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webModule/src/main/java/com/mike/service/GameServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMMaven.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/console/target/console-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/console/target/console-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/console/target/console-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/console/target/console-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/console/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/console/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/console/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/console/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/console/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/console/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/webModule/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/console/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/webModule/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/mike/GameImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/mike/GameImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webModule/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webModule/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webModule/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/webModule/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webModule/target/classes/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/webModule/target/classes/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webModule/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webModule/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webModule/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/webModule/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webModule/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/webModule/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webModule/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webModule/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webModule/target/webModule-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/webModule/target/webModule-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webModule/target/webModule-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/webModule/target/webModule-1.0-SNAPSHOT.jar.original" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,6 +57,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="printErrorStackTraces" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1dJXZhLH003a32uCcmAR2ai9W8y" />
   <component name="ProjectLevelVcsManager">
@@ -76,12 +84,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="openjdk-14" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/webModule/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build.android" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -106,10 +114,23 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.WebMain">
+  <component name="RunManager" selected="Application.WebMain">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mike.Main" />
       <module name="console" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mike.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mike.WebMain" />
+      <module name="webModule" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.mike.*" />
@@ -142,7 +163,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.WebMain" />
+        <item itemvalue="Application.WebMain" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -194,14 +215,20 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1349" y="117" key="#Project_Structure" timestamp="1596379722128">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state x="886" y="141" width="1024" height="852" key="#Project_Structure" timestamp="1596636255612">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1349" y="117" key="#Project_Structure/0.0.2560.1080@0.0.2560.1080" timestamp="1596379722128" />
-    <state x="1043" y="302" key="#com.intellij.ide.util.MemberChooser" timestamp="1596475291916">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state x="886" y="141" width="1024" height="852" key="#Project_Structure/0.27.1920.1053@0.27.1920.1053" timestamp="1596636255612" />
+    <state x="782" y="321" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1596639331492">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1043" y="302" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1080@0.0.2560.1080" timestamp="1596475291916" />
+    <state x="782" y="321" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1596639331492" />
+    <state x="411" y="478" width="1087" height="158" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1596639166560">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="411" y="478" width="1087" height="158" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1596639166560" />
     <state x="1569" y="293" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594017104061">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
@@ -214,22 +241,26 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1619" y="280" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1594275997758" />
-    <state width="1378" height="293" key="GridCell.Tab.0.bottom" timestamp="1596475413998">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1596639771621">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1378" height="293" key="GridCell.Tab.0.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1596475413998" />
-    <state width="1378" height="293" key="GridCell.Tab.0.center" timestamp="1596475413998">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1596639771621" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1596639771621">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1378" height="293" key="GridCell.Tab.0.center/0.0.2560.1080@0.0.2560.1080" timestamp="1596475413998" />
-    <state width="1378" height="293" key="GridCell.Tab.0.left" timestamp="1596475413998">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1596639771621" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1596639771621">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1378" height="293" key="GridCell.Tab.0.left/0.0.2560.1080@0.0.2560.1080" timestamp="1596475413998" />
-    <state width="1378" height="293" key="GridCell.Tab.0.right" timestamp="1596475413998">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1596639771621" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1596639771621">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1378" height="293" key="GridCell.Tab.0.right/0.0.2560.1080@0.0.2560.1080" timestamp="1596475413998" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1596639771621" />
     <state width="1065" height="294" key="GridCell.Tab.1.bottom" timestamp="1596475413998">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
@@ -254,10 +285,15 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1398" y="356" width="940" height="690" key="Maven.ArtifactSearchDialog/0.0.2560.1080@0.0.2560.1080" timestamp="1593251998344" />
-    <state x="414" y="154" width="1222" height="708" key="SettingsEditor" timestamp="1594360656573">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state x="468" y="99" width="973" height="646" key="Registry" timestamp="1596638493030">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="468" y="99" width="973" height="646" key="Registry/0.27.1920.1053@0.27.1920.1053" timestamp="1596638493030" />
+    <state x="311" y="177" width="917" height="737" key="SettingsEditor" timestamp="1596638645504">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="414" y="154" width="1222" height="708" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1594360656573" />
+    <state x="311" y="177" width="917" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1596638645504" />
     <state x="401" y="93" width="1048" height="744" key="dock-window-1" timestamp="1593259404604">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
@@ -270,14 +306,16 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1522" y="154" width="868" height="674" key="new project wizard/0.0.2560.1080@0.0.2560.1080" timestamp="1596470315107" />
-    <state x="1529" y="254" width="672" height="677" key="run.anything.popup" timestamp="1596475318026">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state x="1147" y="275" width="672" height="661" key="run.anything.popup" timestamp="1596638777293">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1529" y="254" width="672" height="677" key="run.anything.popup/0.0.2560.1080@0.0.2560.1080" timestamp="1596475318026" />
-    <state x="1502" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1596470245107">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state x="1147" y="275" width="672" height="661" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1596638777293" />
+    <state x="1127" y="261" width="672" height="662" key="search.everywhere.popup" timestamp="1596639502103">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1502" y="240" width="672" height="678" key="search.everywhere.popup/0.0.2560.1080@0.0.2560.1080" timestamp="1596470245107" />
+    <state x="1127" y="261" width="672" height="662" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1596639502103" />
     <state x="1417" y="235" key="spring file set editor" timestamp="1593449888441">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>

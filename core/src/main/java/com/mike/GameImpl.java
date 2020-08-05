@@ -19,6 +19,7 @@ public class GameImpl implements Game
 	private final NumberGenerator numberGenerator;
 	private final int guessCount;
 
+	@Getter
 	private int number;
 	private int smallest;
 	private int biggest;
