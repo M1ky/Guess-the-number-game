@@ -36,9 +36,9 @@ public class MessageGeneratorImpl implements MessageGenerator
 	public String getResultMessage()
 	{
 		if (game.isGameWon())
-			return "Congrats";
+			return "Congrats, the number was: " + game.getNumber();
 		else if (game.isGameLost())
-			return "Aww you just lost.";
+			return "Aww you just lost, the number was: " + game.getNumber();
 		else if (!game.isValidNumber())
 			return "The guess is not in valid range";
 		else if (game.getRemainingGuesses() == game.getGuessCount())

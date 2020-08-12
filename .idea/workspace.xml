@@ -11,12 +11,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7c9fb7c-8ff6-4f65-8ce1-15d481530393" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/webModule/src/main/java/com/mike/controller/PlayController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webModule/src/main/java/com/mike/util/AttributeNames.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webModule/src/main/java/com/mike/util/GameMappings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webModule/src/main/resources/templates/play.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webModule/src/main/resources/templates/fragments/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webModule/src/main/resources/templates/fragments/head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webModule/src/main/resources/templates/game-over.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webModule/src/main/java/com/mike/util/ViewNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/webModule/src/main/java/com/mike/util/ViewNames.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/target/console-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/console/target/console-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/target/console-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/console/target/console-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/mike/MessageGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/mike/MessageGeneratorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/com/mike/MessageGeneratorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/com/mike/MessageGeneratorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webModule/src/main/java/com/mike/controller/PlayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webModule/src/main/java/com/mike/controller/PlayController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webModule/src/main/java/com/mike/util/GameMappings.java" beforeDir="false" afterPath="$PROJECT_DIR$/webModule/src/main/java/com/mike/util/GameMappings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webModule/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/webModule/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webModule/src/main/resources/templates/play.html" beforeDir="false" afterPath="$PROJECT_DIR$/webModule/src/main/resources/templates/play.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webModule/target/classes/com/mike/controller/PlayController.class" beforeDir="false" afterPath="$PROJECT_DIR$/webModule/target/classes/com/mike/controller/PlayController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webModule/target/classes/com/mike/util/GameMappings.class" beforeDir="false" afterPath="$PROJECT_DIR$/webModule/target/classes/com/mike/util/GameMappings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webModule/target/classes/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/webModule/target/classes/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webModule/target/classes/templates/play.html" beforeDir="false" afterPath="$PROJECT_DIR$/webModule/target/classes/templates/play.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webModule/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/webModule/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webModule/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/webModule/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webModule/target/webModule-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/webModule/target/webModule-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webModule/target/webModule-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/webModule/target/webModule-1.0-SNAPSHOT.jar.original" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +46,8 @@
       <list>
         <option value="Interface" />
         <option value="AnnotationType" />
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -223,26 +238,26 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1619" y="280" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1594275997758" />
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1596639771621">
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1597145108593">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1378" height="293" key="GridCell.Tab.0.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1596475413998" />
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1596639771621" />
-    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1596639771621">
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1597145108593" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1597145108592">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1378" height="293" key="GridCell.Tab.0.center/0.0.2560.1080@0.0.2560.1080" timestamp="1596475413998" />
-    <state width="1874" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1596639771621" />
-    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1596639771621">
+    <state width="1874" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1597145108592" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1597145108592">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1378" height="293" key="GridCell.Tab.0.left/0.0.2560.1080@0.0.2560.1080" timestamp="1596475413998" />
-    <state width="1874" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1596639771621" />
-    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1596639771621">
+    <state width="1874" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1597145108592" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1597145108592">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1378" height="293" key="GridCell.Tab.0.right/0.0.2560.1080@0.0.2560.1080" timestamp="1596475413998" />
-    <state width="1874" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1596639771621" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1597145108592" />
     <state width="1065" height="294" key="GridCell.Tab.1.bottom" timestamp="1596475413998">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
@@ -288,16 +303,16 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1522" y="154" width="868" height="674" key="new project wizard/0.0.2560.1080@0.0.2560.1080" timestamp="1596470315107" />
-    <state x="1147" y="275" width="672" height="661" key="run.anything.popup" timestamp="1596638777293">
+    <state x="1147" y="275" width="672" height="661" key="run.anything.popup" timestamp="1597144968526">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1529" y="254" width="672" height="677" key="run.anything.popup/0.0.2560.1080@0.0.2560.1080" timestamp="1596475318026" />
-    <state x="1147" y="275" width="672" height="661" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1596638777293" />
-    <state x="1127" y="261" width="672" height="662" key="search.everywhere.popup" timestamp="1596639502103">
+    <state x="1147" y="275" width="672" height="661" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1597144968526" />
+    <state x="1127" y="261" width="672" height="662" key="search.everywhere.popup" timestamp="1597051798267">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1502" y="240" width="672" height="678" key="search.everywhere.popup/0.0.2560.1080@0.0.2560.1080" timestamp="1596470245107" />
-    <state x="1127" y="261" width="672" height="662" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1596639502103" />
+    <state x="1127" y="261" width="672" height="662" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1597051798267" />
     <state x="1417" y="235" key="spring file set editor" timestamp="1593449888441">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>

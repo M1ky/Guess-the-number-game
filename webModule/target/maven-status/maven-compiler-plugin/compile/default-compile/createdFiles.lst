@@ -1,3 +1,8 @@
 com/mike/util/ViewNames.class
-com/mike/WebMain.class
 com/mike/config/WebConfig.class
+com/mike/WebMain.class
+com/mike/controller/PlayController.class
+com/mike/util/GameMappings.class
+com/mike/service/GameServiceImpl.class
+com/mike/util/AttributeNames.class
+com/mike/service/GameService.class

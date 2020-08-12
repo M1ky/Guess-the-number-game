@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{fragments/head :: headFragment}">
+</head>
+<body>
+    <div align="center">
+        <h1>Guess The Number Game</h1>
+        <h2>Game Over</h2>
+        <h3 th:text="${__${T(com.mike.util.AttributeNames).RESULT_MESSAGE}__}"/>
+
+        <p><a th:href="@{__${T(com.mike.util.GameMappings).RESTART}__}" >Play Again</a></p>
+        <p><a th:href="@{__${T(com.mike.util.GameMappings).HOME}__}" >Home</a></p>
+    </div>
+
+    <div th:replace="~{fragments/footer :: footerFragment}" />
+
+</body>
+</html>

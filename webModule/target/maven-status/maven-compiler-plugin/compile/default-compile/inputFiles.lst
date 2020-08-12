@@ -1,3 +1,8 @@
+/home/mike/Dev/Java/Spring/Guess-the-number-game/webModule/src/main/java/com/mike/util/AttributeNames.java
 /home/mike/Dev/Java/Spring/Guess-the-number-game/webModule/src/main/java/com/mike/util/ViewNames.java
 /home/mike/Dev/Java/Spring/Guess-the-number-game/webModule/src/main/java/com/mike/WebMain.java
+/home/mike/Dev/Java/Spring/Guess-the-number-game/webModule/src/main/java/com/mike/util/GameMappings.java
 /home/mike/Dev/Java/Spring/Guess-the-number-game/webModule/src/main/java/com/mike/config/WebConfig.java
+/home/mike/Dev/Java/Spring/Guess-the-number-game/webModule/src/main/java/com/mike/controller/PlayController.java
+/home/mike/Dev/Java/Spring/Guess-the-number-game/webModule/src/main/java/com/mike/service/GameServiceImpl.java
+/home/mike/Dev/Java/Spring/Guess-the-number-game/webModule/src/main/java/com/mike/service/GameService.java
